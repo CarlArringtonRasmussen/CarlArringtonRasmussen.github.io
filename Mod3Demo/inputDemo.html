@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Module 03 Input Demo</title>
+	</head>
+	
+	<body>
+		<h3>Text Field Demo</h3>
+		<p>Enter Name:</p> <input type="text" id = "myText" value ="Enter Name">
+		<p>Click the button to get the value of the text in the text area. </p>
+		
+		<button onclick="outputDemo()">Click Here</button>
+		
+		<p id="outputArea"></p>
+		
+		<script>
+			function outputDemo() {
+				var output = document.getElementById("myText").value;
+				document.getElementById("outputArea").innerHTML = output;
+			}
+		</script>
+		
+		<center>
+			<p>
+				<a href="../index.html">
+						Return to the Home Page
+				</a>
+			</p>
+		</center>
+	</body>
+	
+	<footer>
+		<center>
+			<em>Copyright &copy; 2020 Dr. Arrington's 
+			Virtual Classroom</em>
+		</center>
+	</footer>
+	
+</html>
