@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>Module 03 Activity Demo</title>
+	</head>
+	
+	<body>
+		<p>Enter a string here: 
+			<input type="text" id="myText" value = "Enter Text">
+		</p>
+		<p>
+			Click the "Reverse the Text" button to see the text in entered in reverse.
+		</p>
+		
+		<button onclick="displayEntry()">
+			Rverese the Text
+		</button>
+		
+		<p id="outputArea"></p>
+		
+		<script>
+			function reverseString(str)
+			{
+				var splitString = str.split("");
+				console.log(splitString);
+				var reverseStr = splitString.reverse();
+				var joined = reverseStr.join("");
+				return joined;
+			}
+		
+			function displayEntry() {
+				var output = document.getElementById("myText").value;
+				
+				var newOutput = reverseString(output);
+				
+				document.getElementById("outputArea").innerHTML = newOutput;
+			}
+		</script>
+		
+		<center>
+			<p>
+				<a href="../index.html">
+						Return to the Home Page
+				</a>
+			</p>
+		</center>
+		</body>
+		
+		<footer>
+			<center>
+				<em>Copyright &copy; 2020 Dr. Arrington's 
+				Virtual Classroom</em>
+			</center>
+		</footer>
+
+</html>
