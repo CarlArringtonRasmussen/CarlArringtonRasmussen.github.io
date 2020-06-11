@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Module 04 Activity Demo</title>
+	</head>
+	
+	<body>
+		<p>Name: 
+			<input type="text" id="myName" value = "Enter Name">
+		</p>
+		
+		<p>Role: 
+			<input type="text" id="myRole" value = "Enter Role">
+		</p>
+		
+		<p>
+			Click to display the output.
+		</p>
+		
+		<button onclick="displayEntry()">
+			Display Entry
+		</button>
+		
+		<p id ="outputArea"></p>
+			
+		<script>
+			function displayEntry()
+			{
+				var name = document.getElementById("myName").value;
+				var role = document.getElementById("myRole").value;
+				var output = name + " is a(n) " + role + " at Rasmussen.";
+				document.getElementById("outputArea").innerHTML = output;
+			}
+		</script>
+		
+		<center>
+			<p>
+				<a href="../index.html">
+						Return to the Home Page
+				</a>
+			</p>
+		</center>
+		
+	</body>
+	
+	<footer>
+		<center>
+			<em>Copyright &copy; 2020 Dr. Arrington's 
+			Virtual Classroom</em>
+		</center>
+	</footer>
+	
+</html>
