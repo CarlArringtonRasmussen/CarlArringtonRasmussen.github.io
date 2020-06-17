@@ -1,0 +1,26 @@
+table{
+	border: solid 5pt black;
+	
+}
+
+th {
+	padding: 10pt;
+	background-color: #CACACA;
+}
+
+td{
+	padding: 10pt;
+}
+
+tr:nth-child(even){
+	background-color: #dede00;
+}
+
+tr:nth-child(odd){
+	background-color: #fc9add;
+}
+
+tr:hover{
+	background-color: #9E9E9E;
+	font-weight: bold;
+}

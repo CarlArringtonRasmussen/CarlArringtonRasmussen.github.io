@@ -1,0 +1,21 @@
+body{
+	background-color: #aff0fa;
+}
+
+table{
+	border: solid 5pt black;
+}
+
+th {
+	padding: 10pt;
+	background-color: #CACACA;
+}
+
+td{
+	padding: 10pt;
+}
+
+tr:hover{
+	background-color: #9E9E9E;
+	font-weight: bold;
+}
