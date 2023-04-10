@@ -1,0 +1,1 @@
+console.log("This script was loaded outside of the HTML");
