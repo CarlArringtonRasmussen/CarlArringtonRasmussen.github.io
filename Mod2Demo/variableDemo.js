@@ -8,6 +8,9 @@ var hourlyWage = 15;
 // create a variable called weekly hours that holds a number as a string
 var weeklyHours = "40";
 
+// in order to make constants
+const DAYSINAWEEK = 7;
+
 // create a variable that calculates the weekly wage by multiplying the
 // hourlyWage and a converted weeklyHours
 var weeklyWage = hourlyWage * parseInt(weeklyHours);
